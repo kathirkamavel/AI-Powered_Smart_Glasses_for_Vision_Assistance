@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "335824957732",
+    "project_id": "zegion-zero",
+    "storage_bucket": "zegion-zero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335824957732:android:edfb395f5782d6e3c503b1",
+        "android_client_info": {
+          "package_name": "com.zero.zegion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335824957732-trmtvk6o77nadau8uf0gene0h1mkjgrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_ZobRx-5obtWljEiao_hH6Pk-7Qr1b4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335824957732-trmtvk6o77nadau8uf0gene0h1mkjgrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

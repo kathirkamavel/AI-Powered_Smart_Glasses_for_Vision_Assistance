@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1b1b"
+    android:id="@+id/main_activity"
+    android:paddingTop="?attr/actionBarSize">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/animation_container"
+        android:background="@android:color/transparent"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3">
+
+        <ImageButton
+            android:id="@+id/main_button"
+            style="@style/CardView.Dark"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/z"
+            android:text="@string/speech_recognition"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:elevation="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RedundantDescriptionCheck,DuplicateSpeakableTextCheck" />
+
+        <View
+            android:id="@+id/ripple_button"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/circular_button"
+            app:layout_constraintBottom_toBottomOf="@id/main_button"
+            app:layout_constraintEnd_toEndOf="@id/main_button"
+            app:layout_constraintStart_toStartOf="@id/main_button"
+            app:layout_constraintTop_toTopOf="@id/main_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.75"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

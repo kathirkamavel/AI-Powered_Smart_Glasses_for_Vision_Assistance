@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zero.zegion">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZEGION"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="31">
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"
+            android:label="@string/title_activity_secondary"
+            android:theme="@style/Theme.ZEGION" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <queries>
+        <package android:name="com.google.android.googlequicksearchbox" />
+        <package android:name="com.google.android.youtube" />
+        <package android:name="com.google.android.apps.maps" />
+        <package android:name="com.google.android.gm" />
+        <package android:name="com.whatsapp" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.instagram.android" />
+        <package android:name="com.twitter.android" />
+        <package android:name="com.snapchat.android" />
+        <package android:name="com.spotify.music" />
+        <package android:name="com.netflix.mediaclient" />
+        <package android:name="com.facebook.orca" />
+        <package android:name="com.linkedin.android" />
+        <package android:name="com.Slack" />
+        <package android:name="com.reddit.frontpage" />
+        <package android:name="com.android.chrome" />
+        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="us.zoom.videomeetings" />
+        <package android:name="org.telegram.messenger"/>
+        <package android:name="com.android.calculator2" />
+        <package android:name="com.google.android.calendar" />
+        <package android:name="com.android.camera" />
+        <package android:name="com.android.chrome" />
+        <package android:name="com.google.android.apps.docs" />
+        <package android:name="com.instagram.android" />
+        <package android:name="com.google.ar.lens" />
+        <package android:name="com.google.android.apps.meetings" />
+        <package android:name="com.netflix.mediaclient" />
+        <package android:name="com.olacabs.customer" />
+        <package android:name="com.amazon.avod.thirdpartyclient" />
+        <package android:name="com.google.android.apps.docs.editors.sheets" />
+        <package android:name="com.google.android.apps.messaging" />
+        <package android:name="com.whatsapp" />
+        <package android:name="com.google.android.apps.youtube.music" />
+    </queries>
+
+
+</manifest>
