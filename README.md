@@ -42,6 +42,6 @@ By following these steps, you can connect the different parts of this project in
 
 Here are some images related to the project:
 
-![Image 1](81DEC56A-2B5E-4BDD-9545-762EEB55C652_1_201_a.jpeg)
-![Image 2](WhatsApp%20Image%202025-03-27%20at%2014.20.19.jpeg)
-![Image 3](WhatsApp%20Image%202025-03-27%20at%2014.27.39.jpeg)
+![Image 1](glass_1.jpeg)
+![Image 2](glass_2.jpeg)
+![Image 3](glass_3.jpeg)
